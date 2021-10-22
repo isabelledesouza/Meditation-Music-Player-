@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title>Music Player</title>
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css" integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V" crossorigin="anonymous"/>
+<link rel ="stylesheet" href = "style.css">
+<script src ="app.js" defer ></script>
+</head>
+<body>
+    <!--Song-->
+    <div class ="player-container">
+        <div class="img-container">
+            <img src ="img/jacinto-1.jpg" alt=" ">
+        </div>
+        <h2 id="title">Chillax</h2>
+        <h3 id="artist">rancisco Alvear</h3>
+        <audio src="SongsRelaxing/relaxing-1.mp3"></audio>
+        <!--Progress-->
+        <div class="progress-container" id="progress-container">
+            <div class="progress" id="progress"></div>
+            <div class="duration-wrapper">
+                <span id="current-Time">0:00</span>
+                <span id="durationEl">2:06</span>
+            </div>
+        </div>
+        <!--Controls-->
+        <div class="play-controls">
+            <i class="fas fa-backward" id="prev" title="previous"></i>
+            <i class="far fa-play-circle fas main-button" id="play" title="play"></i>
+            <i class="fas fa-forward" id="forward" title="forward"></i>
+        </div>
+    </div>
+</body>
+</html>
